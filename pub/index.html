@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BoloBall</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css">
+    <script src="./assets/js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="/socket.io/socket.io.js" type="text/javascript"></script>
+    <script src="./assets/js/navigation.js" type="text/javascript"></script>
+    <script src="./assets/js/client.js" type="text/javascript"></script>
+    <script src="./assets/js/clientBoard.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- The games' Main Menu. -->
+    <div id="mainMenu">
+        <h1>Bolo Ball</h1>
+        <ul>
+            <li class="new">
+                New Game
+            </li>
+            <li class="rule">
+                Rules/How to Play
+            </li>
+            <li class="cred">
+                Credits
+            </li>
+            <li class="exit">
+                Exit
+            </li>
+        </ul>
+    </div>
+    <!-- Select a game mode menu. -->
+    <div id="selectGame">
+        <h1 class="main">Back</h1>
+        <ul>
+            <li class="onlineGo">Online Two Player Game</li>
+            <li class="locNormal">Local Standard Game</li>
+            <li class="customOptions">Local Custom Game</li>
+        </ul>
+    </div>
+    <!-- Local Game with standard options. -->
+    <div id="theGameProper">
+        <h2 id="redPointHeader">Red Points:</h2>
+        <h2 id="bluePointHeader">Blue Points:</h2>
+        <h2 class="quitGame">Quit</h2>
+        <!-- Dialog Message. -->
+        <h4 id="gameMessage" hidden></h4>
+        <table id="pictureBoard">
+        </table>
+    </div>
+    <!-- Select Custom Options. -->
+    <div id="customMenu">
+        <h1 class="new">Back</h1>
+        <form>
+            <br>Gray Blocks<br>
+            <input type="radio" name="nGrays" value="-4">None<br>
+            <input type="radio" name="nGrays" value="-2">Low<br>
+            <input type="radio" name="nGrays" value="0" checked>Normal<br>
+            <input type="radio" name="nGrays" value="2">High<br>
+            <br>Arrows<br>
+            <input type="radio" name="nArrows" value="-6">None<br>
+            <input type="radio" name="nArrows" value="-3">Low<br>
+            <input type="radio" name="nArrows" value="0" checked>Normal<br>
+            <input type="radio" name="nArrows" value="3">High<br>
+            <br>Points<br>
+            <input type="radio" name="nPoints" value="-2">None<br>
+            <input type="radio" name="nPoints" value="-1">Low<br>
+            <input type="radio" name="nPoints" value="0" checked>Normal<br>
+            <input type="radio" name="nPoints" value="1">High<br>
+            <br><input id="worholesYN" type="checkbox">
+            Wormholes<br>
+            <br>Columns
+            <input class="darkText" type="number" min="6" max="27" step="1" value="27" id="numberCols"><br>
+            <br>Rows
+            <input class="darkText" type="number" min="5" max="18" step="1" value="18" id="numberRows"><br>
+        </form>
+        <br>
+        <button class="customGo">Go</button>
+    </div>
+    <!-- Instructions on How to Play. -->
+    <div id="htp">
+        <h1 class="main">Back</h1>
+        <button id="htpPrev" hidden class="darkText">Previous</button>
+        <button id="htpNext" class="darkText">Next</button>
+        <img src="assets/img/htp_1.gif" id="htp_pic">
+    </div>
+    <!-- Original games' creators. -->
+    <div id="credits">
+        <h1 class="main">Back</h1>
+        <p>Special thanks to Soleau Software for making the original game that was the inspiration for this project.</p>
+        <img src="./assets/img/sol.jpeg" width="200" height="200">
+    </div>
+    <!-- Game winning screen. -->
+    <div id="winnerScreen">
+        <h1 class="quitGame" id="winnerQuit">Quit</h1>
+        <h1 id="winnerPoints"></h1>
+        <h1 id="loserPoints"></h1>
+        <img src="" id="winnerPic">
+    </div>
+</body>
+
+</html>

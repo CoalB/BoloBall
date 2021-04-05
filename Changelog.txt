@@ -1,0 +1,20 @@
+Version 1.1.0
+=================================
+Game Changes:
+
+
+Code Changes:
+Updated event handler to use "event.key" as opposed to the obsolete "event.which".
+Changed "printBoardObject()" to use single quotes ubiquitously throughout the construction of the HTML.
+Removed irrelevant sleep function.
+Board objects are now proper, complete objects, and paired with each room. This was the rooms not doing room things issue.
+Spamming "Online Two-Player", and leaving before an opponent is found no longer crashes the server.
+
+Finished adding getters, and setters for almost everything for the gameBoard.js.
+Added functinality for future features such as pointblock values from 1-99, and methods to modify player positions.
+Working on removing all direct reference to variables, and changing them to getters, and setters.
+
+Documentation of client.js is finished.
+Documentation of navigation.js is finished.
+Documentation of server.js is finished.
+Documentation of serverBoard.js, and clientBoard is finished (they are virtually identical).

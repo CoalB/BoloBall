@@ -1,0 +1,88 @@
+* {
+    text-align: center;
+    color: white;
+}
+
+div {
+    display: none;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 80, 115);
+    width: 750px;
+    height: 600px;
+    margin: auto;
+    border: 5px solid #71c7ec;
+}
+
+a {
+    text-decoration: none;
+    color:#c2d5e3;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+li:hover {
+    list-style-image: url('../img/bullet.png');
+}
+
+table {
+    border-collapse: collapse;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+tr, td, table {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    height: 15px;
+    /* https://stackoverflow.com/questions/14811223/html-css-table-row-height-control */
+    line-height: 0px;
+    width: 20px;
+}
+
+.blockSize {
+    height: 25px;
+    width: 25px;
+}
+
+.pointsOverlay {
+    position: relative;
+    top: -12.5px;
+}
+
+#redPointHeader, #htpPrev {
+    float:left;
+}
+
+#bluePointHeader, #htpNext {
+    float: right;
+}
+
+.darkText, .customGo {
+    color: black;
+}
+
+#gameMessage {
+    width: 50%;
+    margin: auto;
+}
+
+#winnerPoints, #loserPoints {
+    margin:0;
+}
+
+#winnerQuit {
+    margin:10px;
+}

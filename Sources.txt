@@ -1,0 +1,51 @@
+Running the game: nodemon server.js
+
+Palettes
+===================================================
+
+Blue Palette: https://www.color-hex.com/color-palette/30415
+#005073	(0,80,115)
+#107dac	(16,125,172)
+#189ad3	(24,154,211)
+#1ebbd7	(30,187,215)
+#71c7ec	(113,199,236)
+
+Red Palette: https://www.color-hex.com/color-palette/76874
+#ff0000	(255,0,0)
+#e30202	(227,2,2)
+#c00000	(192,0,0)
+#9c0101	(156,1,1)
+#6f0202	(111,2,2)
+
+Gold: https://www.rapidtables.com/web/color/Gold_Color.html
+#FFD700	(255,215,0)
+
+Silver: https://www.rapidtables.com/web/color/silver-color.html
+#C0C0C0	(192,192,192)
+
+Bronze: https://en.wikipedia.org/wiki/Bronze_(color)
+#CD7F32 (205, 127, 50)
+
+
+Assets
+===================================================
+Kick Sound: http://soundbible.com/996-Kick.html
+Walk Sound: http://soundbible.com/1705-Click2.html
+sol.jpg Image: https://static.giantbomb.com/uploads/scale_small/0/3161/305633-sol.jpeg
+
+
+Help
+===================================================
+Animation: https://developer.mozilla.org/en-US/docs/Games/Techniques/Efficient_animation_for_web_games
+Arrays: https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript
+Audio: https://stackoverflow.com/questions/43958637/how-to-play-a-sound-on-key-press-in-javascript
+Audio 2: https://stackoverflow.com/questions/1933969/sound-effects-in-javascript-html5
+Beginning Help: https://stackoverflow.com/questions/37648756/how-to-package-a-nw-js-application-on-windows/37649349#37649349
+For Each: https://stackoverflow.com/questions/2641347/short-circuit-array-foreach-like-calling-break
+Iterators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
+JSON: https://stackoverflow.com/questions/10559660/how-can-i-build-a-json-string-in-javascript-jquery
+NW: https://nwjs.io/
+Radio Value: https://stackoverflow.com/questions/8622336/jquery-get-value-of-selected-radio-button
+Sleep: https://stackoverflow.com/questions/951021/what-is-the-javascript-version-of-sleep
+Sleep 2: https://stackoverflow.com/questions/16873323/javascript-sleep-wait-before-continuing
+Table Row Height: https://stackoverflow.com/questions/14811223/html-css-table-row-height-control

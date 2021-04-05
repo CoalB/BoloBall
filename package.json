@@ -1,0 +1,21 @@
+{
+  "name": "boloball",
+  "main": "./pub/index.html",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "json-fn": "^1.1.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "version": "1.1.0",
+  "keywords": [],
+  "author": "Cole",
+  "license": "ISC",
+  "description": "A game based on an old Floppy Disc game."
+}

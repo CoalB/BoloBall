@@ -1,0 +1,27 @@
+General
+----------------------------
+X - Make it so that each block moved by the ball is a screen update. - Would have to rewrite and use animation frames, and a canvas.
+Allow a toggle for the client to see the other player's balls ('L' key or something).
+Add custom gameboard file import.
+Make point blocks have custom value printed over them instead of generic pointBlock.png. (Only shows 10 points.)
+For custom games have dynamic low, nomral, and high rates for blocks (Right now only chooses based on a flat value, and only row by row. Not total board area.).
+Fix weird restart server, resume connection with phantoms.
+
+Online
+----------------------------
+
+Sound
+----------------------------
+Make move, and kickball sounds depend on a T/F ret to prevent spamming and inconsistent noise for online play.
+Prevent sound from playing in the results screen.
+
+Fixed
+----------------------------
+Leaving before connecting to a game, not disconnecting for the server. (One if statement should fix it.)
+Fix rooms not actually doing room things.
+    Whispers are corrected, but the gameBoard object is changing for all. I believe it's an objects issue.
+Scores don't reset after playing a game, and then waiting for an online opponent.
+Game over detection is not working properly.
+Add custom point block values (1-99), and change addPointBlock function to use pointBlockValue instead of a flat 10 points.
+Add a waiting message so the first player knows what's up.
+Move checks for Custom game arguments to the board.js.
